@@ -1,6 +1,6 @@
+n = int(input())
 a = list(map(int, input().split()))
-for i in range(len(a)):
-    #print in a single line
-    print(a[i], end=' ')
-print()
-print(a)
+sum = 0
+for i in range(n):
+    sum += a[i]
+print(sum)
